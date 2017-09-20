@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Marquees</title>
+ <link href="styles.css" type="text/css" rel="stylesheet">
+ <script src="app.js" defer></script>
+</head>
+<body>
+
+ <div id="controls">
+  <span id="button-bar">
+    <button onclick="showConfigure()" id="configure-btn">Configure</button>
+	<button onclick="start()" id="start-btn">Start</button>
+	<button onclick="reset()" id="reset-btn">Reset</button>
+   </span>
+   <span id="configure-box">
+    Enter image URL: 
+    <input id="image-url-field" type="text" size="25"></input>
+	<button onclick="setImage()" id="set-image-btn">Ok</button><br>
+	<!--<span style="font-size: small;">Ex. <code>https://ben.bike/tests/image/test_1.png</code></span>-->
+   </span>
+  </div>
+  <span id="status"></span>
+  
+  <div id="marquee-zone"></div>
+
+</body>
+</html>
