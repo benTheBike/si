@@ -43,5 +43,5 @@ function start() {
 
 // Reset
 function reset() {
-	window.location.href = "index.html"; // Just reloads the page
+	window.location.href = "https://ben.bike/si"; // Just reloads the page
 }
