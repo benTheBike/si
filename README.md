@@ -2,7 +2,7 @@
 si - short for scrolling images. (aka marquees).
 
 
-Source code (in gh-pages branch) - [here](https://github.com/benTheBike/si/tree/gh-pages)
+Source code (in ```gh-pages branch```) - [here](https://github.com/benTheBike/si/tree/gh-pages)
 
 Website - [ben.bike/si](https://ben.bike/si)
 
