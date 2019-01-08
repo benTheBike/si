@@ -1,0 +1,44 @@
+:root {
+	--accent-color: #e55124;
+}
+
+body {
+	margin: 5px;
+	font-family: "Arial", sans-serif;
+	line-height: 1.4;
+}
+
+.btn {
+	color: var(--accent-color);
+	border-radius: 4px;
+	padding: 4px;
+}
+
+.btn:hover {
+	color: white;
+	background-color: var(--accent-color);
+}
+
+#title-bar {
+	display: block;
+}
+
+#title-box { display: block; }
+#title { display: inline; }
+
+/* Elements that start off invisible */
+#help-box { display: none; }
+#config-box { display: none; }
+#reset-btn { display: none; }
+
+code {
+	font-family: "Consolas", monospace;
+	background-color: #d4d6d8;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}

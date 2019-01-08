@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#e55124">
+	<title>ben.bike | si</title>
+	<link rel="icon" href="https://ben.bike/favicon.png">
+	<link href="styles.css" type="text/css" rel="stylesheet">
+	<script src="app.js" defer></script>
+</head>
+<body>
+	<div id="controls">
+		<span id="title-bar">
+			<a id="back-btn" class="btn" href="https://ben.bike"><i>(back to ben.bike)</i></a>
+			<span id="title-box">
+				<h2 id="title">SI - Scrolling Images</h2>
+			</span>
+			<a href="https://github.com/benTheBike/si/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
+		</span>
+		<span id="controls">
+			<a class="btn" id="config-btn" href="javascript:void(0);" onclick="configure()">Configure</a>
+			<a class="btn" id="help-btn" href="javascript:void(0);" onclick="help()">Help</a>
+			<a class="btn" id="reset-btn" href="javascript:void(0);" onclick="reset()">Reset</a>
+		</span>
+		<div id="help-box">
+			<h3>Help</h3>
+			<p>
+				Click 'Configure,' than enter a URL to an image in the text field. Your URL should look something like 
+				<code>https://example.com/image.png</code>. Then click 'Start.'<br>
+				<a class="btn" href="javascript:void(0);" onclick="help()">Close help</a>
+			</p>
+		</div>
+		<div id="config-box">
+			<h3>Configure</h3>
+			<p>
+				Enter the URL to an image: <input type="text" size="25" id="image-url-field"> 
+				<a class="btn" href="javascript:void(0);" onclick="start()">Go</a>
+			</p>
+		</div>
+	</div>
+	
+	<div id="marquee-injection"></div>
+	
+	<div id="footer">
+		Created by <a class="btn" href="https://twitter.com/ben_the_bike">Ben</a>
+	</div>
+</body>
+</html>
